@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quiz-engine/static/css/main.89aacab7.css",
+    "main.js": "/quiz-engine/static/js/main.c8ea7084.js",
+    "static/js/453.4c599c13.chunk.js": "/quiz-engine/static/js/453.4c599c13.chunk.js",
+    "static/media/europe.png": "/quiz-engine/static/media/europe.e7ca09a99aaf89366c0a.png",
+    "static/media/kotlin-icon.png": "/quiz-engine/static/media/kotlin-icon.859938b6e55d783ff094.png",
+    "static/media/paris.jpg": "/quiz-engine/static/media/paris.ba0ffa218b1f049c365b.jpg",
+    "static/media/seine-river.jpg": "/quiz-engine/static/media/seine-river.10415ce8acddffc377db.jpg",
+    "static/media/git-icon.png": "/quiz-engine/static/media/git-icon.8dd3688bb1415872d423.png",
+    "static/media/js-icon.png": "/quiz-engine/static/media/js-icon.7c5eb2dd15c52a50a7d0.png",
+    "index.html": "/quiz-engine/index.html",
+    "main.89aacab7.css.map": "/quiz-engine/static/css/main.89aacab7.css.map",
+    "main.c8ea7084.js.map": "/quiz-engine/static/js/main.c8ea7084.js.map",
+    "453.4c599c13.chunk.js.map": "/quiz-engine/static/js/453.4c599c13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89aacab7.css",
+    "static/js/main.c8ea7084.js"
+  ]
+}
