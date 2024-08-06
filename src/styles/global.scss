@@ -1,0 +1,100 @@
+@import "./variables.scss";
+
+body {
+  height: 100vh;
+  background-color: $primary-color;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  height: 4.5rem;
+  padding: 1.25rem;
+  background-color: $quaternary-color;
+
+  @extend .flex-center;
+  flex: 1;
+
+  border: none;
+
+  font-size: 1.25rem;
+  color: $primary-color;
+
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: darken($quaternary-color, 10%);
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: $primary-color;
+}
+
+.sub-title {
+  font-size: 1.25rem;
+  color: $primary-color;
+}
+
+.thumbnail {
+  width: 5rem;
+  align-self: center;
+}
+
+.description {
+  text-align: left;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 0.5s ease-in-out;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../styles/global.scss";
+
+.App {
+  padding: 2.5rem;
+  background-color: $quinary-color;
+
+  &__quiz-buttons {
+    @extend .flex-container;
+    margin-top: 2.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.Progress-bar {
+  height: 1.125rem;
+  white-space: nowrap;
+  text-align: center;
+  background-color: $nonary-color;
+  margin-bottom: 1.25rem;
+
+  &__fill {
+    color: $quinary-color;
+    background: $septenary-color;
+  }
+
+  &__empty {
+  }
+}

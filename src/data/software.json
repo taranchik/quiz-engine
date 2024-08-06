@@ -1,0 +1,72 @@
+{
+  "name": "Software",
+  "questions": [
+    {
+      "id": 1,
+      "type": "one-choice",
+      "title": "Programming Language Part",
+      "question": "Which programming language is shown in the image?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "Python", "value": "python", "nextQuestionId": 2 },
+        { "text": "JavaScript", "value": "javascript", "nextQuestionId": 3 },
+        { "text": "Java", "value": "java", "nextQuestionId": 2 },
+        { "text": "C++", "value": "cpp", "nextQuestionId": 2 }
+      ],
+      "image": "js-icon.png",
+      "answer": "javascript"
+    },
+    {
+      "id": 2,
+      "type": "one-choice",
+      "title": "Programming Language Part",
+      "question": "Which programming language is shown in the image?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "Swift", "value": "swift" },
+        { "text": "Kotlin", "value": "kotlin" },
+        { "text": "JavaScript", "value": "javascript" },
+        { "text": "Ruby", "value": "ruby" }
+      ],
+      "image": "kotlin-icon.png",
+      "answer": "kotlin",
+      "nextQuestionId": 4
+    },
+    {
+      "id": 3,
+      "type": "one-choice",
+      "question": "Which version control system is shown in the image?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "SVN", "value": "svn" },
+        { "text": "Git", "value": "git" },
+        { "text": "Mercurial", "value": "mercurial" },
+        { "text": "CVS", "value": "cvs" }
+      ],
+      "image": "git-icon.png",
+      "answer": "git",
+      "nextQuestionId": 4
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "Which of the following are JavaScript frameworks?",
+      "description": "Select all that apply.",
+      "options": [
+        { "text": "React", "value": "react" },
+        { "text": "Angular", "value": "angular" },
+        { "text": "Laravel", "value": "laravel" },
+        { "text": "Django", "value": "django" }
+      ],
+      "nextQuestionId": 5,
+      "answer": ["react", "angular"]
+    },
+    {
+      "id": 5,
+      "type": "input",
+      "question": "What is web language?",
+      "description": "Please type your answer.",
+      "answer": "JavaScript"
+    }
+  ]
+}

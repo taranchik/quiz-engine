@@ -1,0 +1,33 @@
+@import "../../styles/global.scss";
+
+.Question {
+  @extend .flex-container;
+  flex-direction: column;
+
+  &__one-choice,
+  &__multiple-choice,
+  &__input-answer {
+    @extend .flex-container;
+  }
+
+  &__multiple-choice,
+  &__input-answer {
+    flex-direction: column;
+  }
+
+  &__multiple-choice > button,
+  &__input-answer > button {
+    margin-top: 1.25rem;
+  }
+
+  &__input-answer > input {
+    height: 1.5rem;
+    font-size: 1.125rem;
+  }
+
+  &__multiple-choice {
+    & > div {
+      align-self: start;
+    }
+  }
+}

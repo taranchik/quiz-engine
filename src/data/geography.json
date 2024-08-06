@@ -1,0 +1,73 @@
+{
+  "name": "Geography",
+  "questions": [
+    {
+      "id": 1,
+      "type": "one-choice",
+      "question": "What is the capital of France?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "Paris", "value": "paris", "nextQuestionId": 2 },
+        { "text": "London", "value": "london", "nextQuestionId": 3 },
+        { "text": "Rome", "value": "rome", "nextQuestionId": 3 },
+        { "text": "Berlin", "value": "berlin", "nextQuestionId": 3 }
+      ],
+      "image": "paris.jpg",
+      "answer": "paris"
+    },
+    {
+      "id": 2,
+      "type": "one-choice",
+      "question": "Which river flows through Paris?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "Seine", "value": "seine" },
+        { "text": "Thames", "value": "thames" },
+        { "text": "Danube", "value": "danube" },
+        { "text": "Rhone", "value": "rhone" }
+      ],
+      "image": "seine-river.jpg",
+      "answer": "seine",
+      "nextQuestionId": 4
+    },
+    {
+      "id": 3,
+      "type": "one-choice",
+      "question": "Which continent is France located in?",
+      "description": "Select the correct answer.",
+      "options": [
+        { "text": "Europe", "value": "europe" },
+        { "text": "Asia", "value": "asia" },
+        { "text": "Africa", "value": "africa" },
+        {
+          "text": "North America",
+          "value": "north-america"
+        }
+      ],
+      "image": "europe.png",
+      "answer": "europe",
+      "nextQuestionId": 4
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "question": "Which of the following countries are in Europe?",
+      "description": "Select all that apply.",
+      "options": [
+        { "text": "Spain", "value": "spain" },
+        { "text": "Brazil", "value": "brazil" },
+        { "text": "Italy", "value": "italy" },
+        { "text": "Japan", "value": "japan" }
+      ],
+      "nextQuestionId": 5,
+      "answer": ["spain", "italy"]
+    },
+    {
+      "id": 5,
+      "type": "input",
+      "question": "Name a European country that starts with the letter 'B'.",
+      "description": "Please type your answer.",
+      "answer": "Belgium"
+    }
+  ]
+}
