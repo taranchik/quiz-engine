@@ -15,6 +15,10 @@
 
 ## How To Use
 
+You can access the app directly through this link: https://taranchik.github.io/quiz-engine/.
+
+If you prefer, you can also follow the installation guide provided below to set up the app on your local environment.
+
 #### Installation
 
 Copy-paste the following commands in the terminal
